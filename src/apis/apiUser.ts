@@ -8,8 +8,8 @@ export function apiGetAuthUser(): Promise<IUser> {
                 name: 'You Yourself',
                 email: 'you@you.com',
                 preferences: {
-                    favoriteWidgets: [1, 3, 4, 6],
-                    hiddenWidgets: [],
+                    favoriteWidgets: [],
+                    hiddenWidgets: [4],
                 },
             });
         }, 800);
