@@ -4,11 +4,12 @@
     width: 75%;
     padding: 10px;
     margin: 0 auto;
+    position: relative;
+    z-index: 2;
 }
 
 .dashboard__header {
     border-radius: 5px;
-    margin: 0 auto;
     background-color: #121212;
     padding: 20px;
 }
